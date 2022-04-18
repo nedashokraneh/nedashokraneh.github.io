@@ -21,9 +21,11 @@ Education
 Publications and Preprints
 ======
 **Integrative chromatin domain annotation through graph embedding of Hi-C data** [<a href="https://www.biorxiv.org/content/10.1101/2022.04.14.488414v1">biorxiv</a>]
+
 Neda Shokraneh, Mariam Arab and Maxwell W Libbrecht 
 
 **Continuous chromatin state feature annotation of the human epigenome** []
+
 Habib Daneshpajouh, Bowen Chen, Neda Shokraneh, Shohre Masoumi, Kay C Wiese and Maxwell W Libbrecht
 
 

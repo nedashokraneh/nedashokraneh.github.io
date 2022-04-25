@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a second year PhD student in Computer Science department at the Simon Fraser University, advised by 
-<a href="https://sites.google.com/view/libbrecht-lab/home?authuser=0">Maxwell Libbrecht</a>. My research is in modeling biological data with probabilistic models and machine learning techniques. In particular, I am interested in clustering problems in relational biological data, probabilistic graphical models, and graph representation learning. 
+<a href="https://sites.google.com/view/libbrecht-lab/home?authuser=0">Maxwell Libbrecht</a>. My research is in modeling biological data with probabilistic models and machine learning techniques. In particular, I am interested in clustering problems in relational biological data, probabilistic graphical models, and graph representation learning. Here is my <a href="http://nedashokraneh.github.io/files/CV.pdf">CV</a>.
 
 
 Education
@@ -20,11 +20,11 @@ Education
 
 Publications and Preprints
 ======
-**Integrative chromatin domain annotation through graph embedding of Hi-C data** [<a href="https://www.biorxiv.org/content/10.1101/2022.04.14.488414v1">biorxiv</a>]
+**Integrative chromatin domain annotation through graph embedding of Hi-C data** [<a href="https://www.biorxiv.org/content/10.1101/2022.04.14.488414v1">bioRxiv</a>]
 
 Neda Shokraneh, Mariam Arab and Maxwell W Libbrecht 
 
-**Continuous chromatin state feature annotation of the human epigenome** []
+**Continuous chromatin state feature annotation of the human epigenome** [<a href="https://www.biorxiv.org/content/10.1101/2022.04.14.488414v1">Bioinformatics, 2022</a>]
 
 Habib Daneshpajouh, Bowen Chen, Neda Shokraneh, Shohre Masoumi, Kay C Wiese and Maxwell W Libbrecht
 

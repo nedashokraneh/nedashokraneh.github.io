@@ -14,6 +14,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <style>
+    img.one {
+      height: 50%;
+      width: 50%;
+    }
+  </style>
 </head>
 <body>
 
@@ -45,46 +51,47 @@
   <!-- Page Content -->
     <div class="container">
 
-        <div class="row">
+        <div class="row" >
 
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 40vh;">
+            <div class="col-md-8" style="height: 20%;">
                 
-                <!-- Main Image -->
-                <img class="img-responsive" src="profile.jpg" width="200" height="35" alt=""><br>
-                
-                <div style="margin-top:3%; text-align:justify;">                
+                <div style="margin-top:1vh; margin-bottom: 0vh; text-align:justify; font-size: 2vh;">                
 					<p>I am a fourth year Ph.D. student in Computer Science department at the Simon Fraser University, advised by 
 <a href="https://sites.google.com/view/libbrecht-lab/home?authuser=0">Maxwell Libbrecht</a>. My research is in modeling biological data with probabilistic models and machine learning techniques. In particular, I am interested in the application of Bayesian statistics and generalized models for count data in single-cell biology. My current project is on studying the chromatin 3D organization at single-cell resolution.</p>
                 </div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Neda Shokraneh</b></div><br>
+            <div class="col-md-4" style = "height: 40%; margin-bottom: -20%;">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 2vw;"><b>Neda Shokraneh</b></div><br>
                 <p><b>nshokran at sfu.ca</b><br>
                 <p>Computing Science Department<br>
                 Simon Fraser University<br>
                 </p>
+                <!-- Main Image -->
+                <img class="one" src="profile.jpg" alt=""><br> 
             </div>
-            
-            
             <!-- Links on the Sidebar 
             <div class="col-md-4" style="margin-top:2%">
               <dd><a href="#">Google Scholar</a></dd> 
               <dd><a href="#">Twitter</a></dd>
               <dd><a href="#">LinkedIn</a></dd>
             </div>-->
-            
-            
             <!-- Publications and preprints -->
-            <div class="col-md-8" style="height: 30vh;">    
+            <div class="col-md-8" style="height: auto; font-size: 2vh; margin-top: 0vh;">    
                 <h2 id="publications">Publications and preprints</h2>
                 
                 <li>
+                  <strong>VSS-Hi-C: Variance-stabilized signals for chromatin contacts</strong><br/>
+                  Neda Shokraneh, Faezeh Bayat and Maxwell Libbrecht.<br>
+                  <a href="https://www.biorxiv.org/content/10.1101/2021.10.19.465027v2">bioRxiv</a> 
+                  </li>
+
+                <li>
                 <strong>Model-based imputation enables improved resolution for identifying differential chromatin contacts in single-cell Hi-C data</strong><br/>
                 Neda Shokraneh, Megan Andrews and Maxwell Libbrecht.<br>
-                <a>Machine Learning in Computational Biology (MLCB), 2023</a> 
+                <a href="https://proceedings.mlr.press/v240/shokraneh-kenari24a">Machine Learning in Computational Biology (MLCB), 2023</a> 
                 </li>
                 
 		<li>
@@ -101,7 +108,7 @@
             </div>
 
 	    <!-- Internships -->
-            <div class="col-md-8" style="height: 35vh;">    
+            <div class="col-md-8" style="height: auto; font-size: 2vh; margin-top: 0vh;">    
                 <h2 id="experiences">Internships</h2>
 
 		<ul>

@@ -5,136 +5,130 @@
     https://github.com/mavroudisv/plain-academic
 -->
 
+
 <html lang="en">
+
 <head>
-  <!-- <title>Neda Shokraneh</title> -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <style>
-    img.one {
-      height: 50%;
-      width: 50%;
-    }
-  </style>
+    <title>Neda Shokraneh</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <style>
+        
+        ul
+        {
+            list-style-type:none;
+            padding:0px;
+            margin:0px;
+        }
+        
+        </style>
 </head>
 <body>
 
 
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#experiences">Experiences</a></li>
-				  <li><a href="files/CV.pdf">CV</a></li> 
-		  </ul>
-		</div>
-	  </div>
-	</nav>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="files/CV.pdf">CV</a></li>
+            </ul>
+        </div>
+    </nav>
   
   <!-- Page Content -->
     <div class="container">
 
-        <div class="row" >
-            
+        <div class="row">
+
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 20%;">
-                
-                <div style="margin-top: auto; margin-bottom: auto; text-align:justify; font-size: 1.2vw;">                
+            <div class="col-md-8">
+                <div style="margin-top:3%; text-align:justify;">                
 					<p>I am a fourth year Ph.D. student in Computer Science department at the Simon Fraser University, advised by 
-<a href="https://sites.google.com/view/libbrecht-lab/home?authuser=0">Maxwell Libbrecht</a>. My research is in modeling biological data with probabilistic models and machine learning techniques. In particular, I am interested in the application of Bayesian statistics and generalized models for count data in single-cell biology. My current project is on studying the chromatin 3D organization at single-cell resolution.</p>
+                        <a href="https://sites.google.com/view/libbrecht-lab/home?authuser=0">Maxwell Libbrecht</a>. My research is in modeling biological data with probabilistic models and machine learning techniques. In particular, I am interested in the application of Bayesian statistics and generalized models for count data in single-cell biology. My current project is on studying the chromatin 3D organization at single-cell resolution.</p>
                 </div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4" style = "height: 20%; margin-bottom: auto;">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 2vw;"><b>Neda Shokraneh</b></div><br>
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Neda Shokraneh</b></div><br>
                 <p><b>nshokran at sfu.ca</b><br>
                 <p>Computing Science Department<br>
-                Simon Fraser University<br>
+                    Simon Fraser University<br>
                 </p>
+            </div>
+
+            <div class="col-md-4" style="float: right;">
                 <!-- Main Image -->
-                <img class="one" src="profile.jpg" alt=""><br> 
+                <img class="img-responsive" src="profile.jpg" width="220" alt=""><br> 
             </div>
-            <!-- Links on the Sidebar 
-            <div class="col-md-4" style="margin-top:2%">
-              <dd><a href="#">Google Scholar</a></dd> 
-              <dd><a href="#">Twitter</a></dd>
-              <dd><a href="#">LinkedIn</a></dd>
-            </div>-->
-            <!-- Publications and preprints -->
-            <div class="col-md-8" style="height: auto; font-size: 1.2vw; margin-top: auto;">    
-                <h2 id="publications">Publications and preprints</h2>
-                
-                <li>
-                  <strong>VSS-Hi-C: Variance-stabilized signals for chromatin contacts</strong><br/>
-                  Neda Shokraneh, Faezeh Bayat and Maxwell Libbrecht.<br>
-                  <a href="https://www.biorxiv.org/content/10.1101/2021.10.19.465027v2">bioRxiv</a> 
-                  </li>
-
-                <li>
-                <strong>Model-based imputation enables improved resolution for identifying differential chromatin contacts in single-cell Hi-C data</strong><br/>
-                Neda Shokraneh, Megan Andrews and Maxwell Libbrecht.<br>
-                <a href="https://proceedings.mlr.press/v240/shokraneh-kenari24a">Machine Learning in Computational Biology (MLCB), 2023</a> 
-                </li>
-                
-		<li>
-                <strong>Integrative chromatin domain annotation through graph embedding of Hi-C data</strong><br/>
-                Neda Shokraneh, Mariam Arab and Maxwell Libbrecht.<br>
-                <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac813/6935783">Bioinformatics, 2022</a> 
-                </li>
             
+            <!-- Publications -->
+            <div class="col-md-8">    
+                <h2 id="publications">Publications and preprints</h2>
+                <ul>
+                <li> 
+                    <strong> VSS-Hi-C: Variance-stabilized signals for chromatin contacts </strong>
+                    <br> Neda Shokraneh, Faezeh Bayat and Maxwell Libbrecht
+                    <br> <a href="https://www.biorxiv.org/content/10.1101/2021.10.19.465027v2">bioRxiv</a> 
+                </li> 
+
                 <li>
-                <strong>Continuous chromatin state feature annotation of the human epigenome</strong><br/>
-                Habib Daneshpajouh, Bowen Chen, Neda Shokraneh, Shohre Masoumi, Kay C Wiese and Maxwell W Libbrecht.<br>
-                <a href="https://academic.oup.com/bioinformatics/article/38/11/3029/6572337">Bioinformatics, 2022</a> 
+                    <br><strong>Model-based imputation enables improved resolution for identifying differential chromatin contacts in single-cell Hi-C data</strong>
+                    <br> Neda Shokraneh, Megan Andrews and Maxwell Libbrecht
+                    <br> <a href="https://proceedings.mlr.press/v240/shokraneh-kenari24a">MLCB 2023</a> 
                 </li>
+
+                <li>
+                    <br><strong>Integrative chromatin domain annotation through graph embedding of Hi-C data</strong>
+                    <br> Neda Shokraneh, Mariam Arab and Maxwell Libbrecht
+                    <br> <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac813/6935783">Bioinformatics, 2022</a> 
+                </li>
+                
+                <li>
+                    <br><strong>Continuous chromatin state feature annotation of the human epigenome</strong>
+                    <br> Habib Daneshpajouh, Bowen Chen, Neda Shokraneh, Shohre Masoumi, Kay C Wiese and Maxwell W Libbrecht.
+                    <br> <a href="https://academic.oup.com/bioinformatics/article/38/11/3029/6572337">Bioinformatics, 2022</a> 
+                </li>
+                </ul>
+                
             </div>
+            
 
-	    <!-- Internships -->
-            <div class="col-md-8" style="height: auto; font-size: 1.2vw; margin-top: auto;">    
-                <h2 id="experiences">Internships</h2>
+            <!-- Internships -->
+            <div class="col-md-8">    
+                <h2 id="experiences">Experiences</h2>
 
-		<ul>
-			<li>Machine Learning Researcher intern at Borealis AI, Winter 2021
-				<ul>
-				<li> Project: studying the advantages of non-autoregressive edit-based modeling for sentence simplification [<a href="files/borealis_internship_2021_report.pdf">report</a>] </li>
-				<li> Supervisors: <a href="https://yanshuaicao.github.io/">Yanshuai Cao</a>, <a href="https://kadarakos.github.io/">Akos Kadar</a> </li>
-				</ul>
-			</li>
-			
-			<li>Research intern at Princess Margaret Cancer Centre, Summer 2019
-				<ul>
-				<li> Project: enhancing the resolution of low-coverage Hi-C data by machine learning models </li>
-				<li> Supervisors:  <a href="https://www.pmgenomics.ca/lupienlab/">Prof. Mathieu Lupien</a>, <a href="https://jrhawley.ca/">James Hawley</a> </li>
-				</ul>
-			</li>
+		            <ul>
+                    <li>
+                        <strong> Machine Learning Researcher intern at Borealis AI, Winter 2021 </strong> 
+                        <ul>
+                            <li> Project: studying the advantages of non-autoregressive edit-based modeling for sentence simplification [<a href="files/borealis_internship_2021_report.pdf">report</a>] </li>
+                            <li> Supervisors: <a href="https://yanshuaicao.github.io/">Yanshuai Cao</a>, <a href="https://kadarakos.github.io/">Akos Kadar</a> </li> 
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <br> <strong> Research intern at Princess Margaret Cancer Centre, Summer 2019 </strong> 
+                        <ul>
+                            <li> Project: enhancing the resolution of low-coverage Hi-C data by machine learning models </li>
+                            <li> Supervisors:  <a href="https://www.pmgenomics.ca/lupienlab/">Prof. Mathieu Lupien</a>, <a href="https://jrhawley.ca/">James Hawley</a> </li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
 
-			
-            	</ul>
-		
+            
+            
         </div>
-	
-	
-	
-	
-
+        <!-- /.row -->
 
     </div>
     <!-- /.container -->
